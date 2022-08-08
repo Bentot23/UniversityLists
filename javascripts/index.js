@@ -50,4 +50,10 @@ const displayInfo = (event) => {
     const univInfo = document.getElementById('info')
     const univLists = document.getElementById('show-lists')
     univLists.innerHTML = ""
+
+    fetch(baseUrl + `?name=${event.target.dataset.name}`)
+    .then(res => res.json())
+    .then(data => {
+        console.log(data)
+    })
 }
