@@ -16,3 +16,10 @@ button {
     float: right;
     margin-bottom: 50px;
 }
+#info {
+    margin-top: 100px;
+    background-color: #0d47a1;
+    color: white;
+    display: block;
+    width: 100%;
+}
