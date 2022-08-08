@@ -5,6 +5,11 @@ document.addEventListener('DOMContentLoaded', () => {
     form.addEventListener('submit', (e) => {
         console.log(e)
         e.preventDefault()
+
+        const inputValue = document.getElementById('country')
+
+        getUniversity(inputValue.value)
+        form.reset()
     })
 })
 
