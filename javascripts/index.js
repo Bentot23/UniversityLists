@@ -55,5 +55,16 @@ const displayInfo = (event) => {
     .then(res => res.json())
     .then(data => {
         console.log(data)
+        univInfo.innerHTML = `<h1>${data[0].country}</h1>
+        <br/>
+        <h3>University's Name:</h3>
+        <p>${data[0].name}</p>
+        <h4>Alpha Two Code:</h4>
+        <p>${data[0].alpha_two_code}</p>
+        <h4>Domains:</h4>
+        <p>${data[0].domains}</p>
+        <h4>Web Pages:</h4>
+        <p>${data[0].web_pages}</p>
+        <br/>`
     })
 }
