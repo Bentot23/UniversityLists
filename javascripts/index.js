@@ -49,4 +49,5 @@ const displayInfo = (event) => {
     console.log(event.target.dataset.name)
     const univInfo = document.getElementById('info')
     const univLists = document.getElementById('show-lists')
+    univLists.innerHTML = ""
 }
