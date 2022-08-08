@@ -86,3 +86,5 @@ const hoverToLink = () => {
         }, 200);
       }, false);
 }
+
+const resetBtn = () => {}
