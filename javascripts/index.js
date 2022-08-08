@@ -7,3 +7,25 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault()
     })
 })
+
+
+const getUniversity = (country) => {
+    const univInfo = document.getElementById('info')
+
+    const univLists = document.getElementById('show-lists')
+    console.log(country)
+    univInfo.innerHTML = ''
+    fetch(baseUrl + `?country=${country}`)
+    .then(res => res.json())
+
+    // getUniversities()
+    .then(data => {
+        console.log(data)
+
+        data.forEach(lists => {
+            univLists.innerHTML += `<li><a id="divList" href="#" data-name="${lists.name}">${lists.name}</a></li>`
+            // univLists.className = 'divList'
+        })
+        
+    })
+}
