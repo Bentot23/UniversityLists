@@ -3,3 +3,7 @@ nav {
     float: initial;
     margin-bottom: 150px;
 }
+
+body {
+    background-image: url('https://ku.edu/sites/default/files/2019-01/Fraser_img.jpg');
+}
