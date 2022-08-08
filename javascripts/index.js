@@ -44,3 +44,5 @@ const clickToLink = () => {
         list.addEventListener('click', displayInfo)
     })
 }
+
+const displayInfo = () => {}
