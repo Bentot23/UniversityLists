@@ -38,4 +38,9 @@ const getUniversity = (country) => {
     })
 }
 
-const clickToLink = () => {}
+const clickToLink = () => {
+    const lists = document.querySelectorAll('a')
+    lists.forEach((list) => {
+        list.addEventListener('click', displayInfo)
+    })
+}
