@@ -37,7 +37,8 @@ const getUniversity = (country) => {
             univLists.innerHTML += `<li><a id="divList" href="#" data-name="${lists.name}">${lists.name}</a></li>`
             // univLists.className = 'divList'
         })
-        
+        clickToLink()
+        hoverToLink()
     })
 }
 
