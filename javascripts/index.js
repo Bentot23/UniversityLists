@@ -37,3 +37,5 @@ const getUniversity = (country) => {
         
     })
 }
+
+const clickToLink = () => {}
