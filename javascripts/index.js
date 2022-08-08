@@ -69,4 +69,17 @@ const displayInfo = (event) => {
     })
 }
 
-const hoverToLink = () => {}
+const hoverToLink = () => {
+
+    const univLists = document.getElementById('show-lists')
+    univLists.addEventListener("mouseover", (event) => {
+        // console.log('hovered')
+        // highlight the mouseover target
+        event.target.style.color = "orange";
+      
+        // reset the color after a short delay
+        setTimeout(() => {
+          event.target.style.color = "";
+        }, 200);
+      }, false);
+}
