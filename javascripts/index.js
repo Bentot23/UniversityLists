@@ -10,6 +10,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         getUniversity(inputValue.value)
         form.reset()
+
+        const univLists = document.getElementById('show-lists')
+        univLists.innerHTML = ""
     })
 })
 
