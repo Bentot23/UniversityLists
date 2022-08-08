@@ -13,6 +13,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const univLists = document.getElementById('show-lists')
         univLists.innerHTML = ""
+
+        const btn = document.getElementById('home')
+        btn.addEventListener('click', resetBtn)
     })
 })
 
