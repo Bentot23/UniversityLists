@@ -87,4 +87,6 @@ const hoverToLink = () => {
       }, false);
 }
 
-const resetBtn = () => {}
+const resetBtn = () => {
+    this.location.reload()
+}
