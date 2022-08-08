@@ -68,3 +68,5 @@ const displayInfo = (event) => {
         <br/>`
     })
 }
+
+const hoverToLink = () => {}
