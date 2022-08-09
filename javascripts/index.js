@@ -26,6 +26,7 @@ const getUniversity = (country) => {
     const univLists = document.getElementById('show-lists')
     console.log(country)
     univInfo.innerHTML = ''
+    univLists.innerHTML = ''
     fetch(baseUrl + `?country=${country}`)
     .then(res => res.json())
 
@@ -91,3 +92,9 @@ const hoverToLink = () => {
 const resetBtn = () => {
     this.location.reload()
 }
+
+// async function getUniversities() {
+//     let res = await fetch(baseUrl + `?country=${country}`)
+//     let data = await res.json()
+//     return data
+// }
