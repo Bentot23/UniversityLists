@@ -34,8 +34,8 @@ $ open index.html
 ## Credits
 
 ```bash
-https://ku.edu/
-materializecss.com
+['https://ku.edu/']
+['materializecss.com']
 ```
 
 
