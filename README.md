@@ -21,6 +21,7 @@ $ open index.html
 ```
 
 ## How it works:
+<img width="1337" alt="Screen Shot 2022-08-10 at 00 30 00" src="https://user-images.githubusercontent.com/92287648/184517879-44547dd4-995f-4147-8ff1-75df37ae94ae.png">
 
 * Hover over the web page and go the input field to type in the country you want to search a university in.
 * Click the search button.
@@ -30,6 +31,8 @@ $ open index.html
 * To refresh the page or choose a different country, just click on the home button.
 
 ## Webpage
+![Univ](https://user-images.githubusercontent.com/92287648/184517872-52fba5ed-a06e-4da5-a291-d96156062e0b.gif)
+
 
 ## Credits
 
